@@ -1,0 +1,377 @@
+:root {
+  --primary: #7159C1;
+}
+@font-face {
+  font-family: Gara;
+  src: url('../font/unicode.garamond.ttf');
+}
+@font-face {
+  font-family: gara_title;
+  src: url('../font/GARR66W.TTF');
+}
+p{
+  font:22px gara_title;
+  color:white;
+}
+.container{
+  width: 100% !important;
+}
+.navbar-fixed .nav-wrapper li a{
+  font-size: 13pt;
+  font-weight: bold;
+  font-family: gara_title_nav;
+  src: url('../font/Garamond\ Bold\ font.ttf');
+}
+.navbar-fixed .nav-wrapper {
+  margin-left: 10%;
+  margin-right: 10%;
+  
+}
+nav {
+  background-color: var(--primary) !important;
+}
+
+.perfil {
+  background-image: linear-gradient(to right,  rgb(142, 124, 207),var(--primary) );
+  margin-top: -60px;
+  padding: 50px;
+}
+.img_tec{
+  text-align: center;
+  margin-top:40px;
+}
+.perfil img{
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+  filter: gray;
+  
+}
+.perfil img:hover{
+  -webkit-filter: none;	
+	filter: none;	
+}
+.perfil .col p{
+  color:white;
+  font:22px Gara;
+  text-align: center;
+}
+.perfil h3{
+  color:white;
+  font:35px gara_title;
+  font-weight: bold;
+}
+.perfil h5{
+  color:white;
+  font:25px gara_title;
+  font-weight: bold;
+}
+.perfil #linha_perfil{
+  border-bottom: 4px solid white;
+  width: 20%;
+  margin-top:-10px;
+}
+.apresentacao {
+  background-color: rgb(48, 53, 53);
+
+  padding-top: 200px;
+  padding-bottom: 250px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .experiencia-mobile{
+    display: none;
+  }
+  .experiencia-mobile_active .collapsible-header{
+    background-color: var(--primary);
+    border: 0px;
+    color:white;
+  }
+  .experiencia-mobile_active .collapsible-body{
+    background-color: white;
+  }
+  .experiencia h4{
+    padding-left: 20px;
+
+  }
+  
+  .experiencia #linha{
+    width: 20% !important; 
+    margin-left: 20px;
+  }
+  #img_uni{
+    margin-top:-20px;
+    width: 100% !important;
+  }
+  .formacao{
+    margin-bottom: 60px !important;
+  }
+  .qualificacao h4{
+    margin-top:80px;
+  }
+  .experiencia-mobile_active p{ 
+    color:rgb(0, 0, 0) !important;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .experiencia-mobile_active{
+    display: none;
+    
+  }
+  
+  
+}
+
+
+.linha_tempo {
+  height: 500px;
+  border-left: 3px solid white;
+  position: absolute;
+  margin-top: 290px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.experiencia{
+  margin-top:50px;
+}
+.experiencia h4{
+  font:35px gara_title;
+  padding-left: 20px;
+  font-weight: bold;
+  color:white;
+}
+.experiencia #linha{
+  border-bottom: 3px solid white;
+  width: 40%;
+  margin-left: 20px;
+  margin-top:-7px; 
+}
+
+.material-icons-linha01 {
+  position: absolute;
+  margin-top: 245px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+}
+
+.card_01 {
+  margin-top: 170px !important;
+  margin-left: 20px !important;
+}
+
+.card_01 .card-content-01 {
+  display: none;
+ 
+}
+.card_01 p{ 
+  color:rgb(0, 0, 0) !important;
+}
+.card_01:hover {
+  box-shadow:
+  1px 1px var(--primary),
+  2px 2px var(--primary),
+  3px 3px var(--primary);
+}
+.card_01 .card-content-01 p {
+  font:20px gara_title;
+}
+.card_01 .card_hiden {
+  padding: 10px;
+ 
+  font:20px gara_title;
+  color: white;
+  background-color: var(--primary);
+}
+/* ------------------------------------------ */
+.material-icons-linha02 {
+  position: absolute;
+  margin-top: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+}
+
+.card_02 {
+  margin-top: 100px !important;
+  
+}
+.card_02 p{ 
+  color:rgb(0, 0, 0) !important;
+}
+.card_02 .card-content-02 {
+  display: none;
+
+}
+
+.card_02 .card_hiden-02 {
+  position: relative;
+  padding: 10px;
+  font:20px gara_title;
+  color: white;
+  background-color: var(--primary);
+}
+.card_02 .card-content-02 p {
+  font:20px gara_title;
+}
+.card_02:hover {
+  margin-bottom:-79px !important;
+  box-shadow:
+  1px 1px var(--primary),
+  2px 2px var(--primary),
+  3px 3px var(--primary);
+}
+
+/* ------------------------ */
+
+.material-icons-linha03 {
+  position: absolute;
+  margin-top: 400px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+}
+
+.card_03 {
+  margin-top: 250px !important;
+}
+.card_03 p{ 
+  color:rgb(0, 0, 0) !important;
+}
+.card_03:hover {
+  margin-top: 156px !important;
+  box-shadow:
+  1px 1px var(--primary),
+  2px 2px var(--primary),
+  3px 3px var(--primary);
+}
+.card_03 .card-content-03 {
+  display: none;
+}
+.card_03 .card-content-03 p {
+  font:20px gara_title;
+}
+.card_03 .card_hiden-03 {
+   position: relative;
+  padding: 10px;
+  font:20px gara_title;
+  color: white;
+  background-color: var(--primary);
+}
+
+/* ------------------------ */
+.formacao{
+  margin-top:75px ;
+  background-image: linear-gradient(to right, rgb(126, 113, 172),var(--primary) );
+  padding: 50px;
+  padding-bottom: 200px !important;
+  border-left: 8px solid  #21212b;
+  border-right: 8px solid  #21212b;
+}
+.formacao h4{
+  
+  padding: 10px;
+  font:35px gara_title;
+  font-weight: bold;
+  color:white;
+}
+.formacao #linha_formação{
+  border-bottom: 3px solid white;
+  width: 15%;
+  margin-left: 10px;
+  margin-top:-15px; 
+  margin-bottom: 10px;
+}
+
+
+/* --------------------- */
+
+.qualificacao{
+  margin-top: -250px;
+  width: 100%;
+  background-image: linear-gradient(to right,  rgb(214, 198, 228),rgb(226, 216, 235) );
+  padding-bottom: 60px !important;
+  text-align: center;
+  padding:20px;
+  clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0% 100%);
+
+}
+.qualificacao h4{
+  font:35px gara_title;
+  padding-top:20px;
+  padding-left:20px;
+  font-weight: bold;
+  color:var(--primary);
+  text-align: left !important;
+}
+.qualificacao #linha_qualificacao{
+  border-bottom: 4px solid var(--primary);
+  margin-left:20px;
+  width: 19%;
+}
+.qualificacao #campeao{
+  margin-top: 0px;
+  font-size: 22pt;
+  color: var(--primary);
+  margin-bottom: 0px;
+}
+.qualificacao #desc{
+  font-size: 16pt;
+  color: var(--primary);
+  margin-top:10px;
+}
+.qualificacao p{
+  font-size: 13pt;
+  color: var(--primary);;
+  margin-top:0px;
+}
+.qualificacao img{
+  text-align: center;
+}
+
+/* -------------- */
+.extra{
+  background-image: linear-gradient(to right, rgb(126, 113, 172),var(--primary) );
+  text-align: center;
+  margin-bottom:-10px;
+}
+.extra p{
+  font:23px gara_title;
+  color:white;
+}
+.extra h4{
+  text-align: center;
+  padding: 10px;
+  font:35px gara_title;
+  font-weight: bold;
+  color:white;
+  margin-bottom: -50px;
+}
+
+/* ---------------- */
+
+.contato{
+  text-align: center;
+}
+.contato h4{
+  padding: 10px;
+  font:35px gara_title;
+  font-weight: bold;
+  color:white;
+  text-align: center;
+}
+
+.contato .btn{
+  text-align: center;
+  margin-top: 65px;
+  background: #cccccf;
+  color:black;
+}
+.contato .btn:focus{
+  
+  background: #cccccf;
+}
+.contato .btn:hover{
+  color:black;
+  background: var(--primary);
+}
